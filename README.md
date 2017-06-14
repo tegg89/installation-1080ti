@@ -2,10 +2,16 @@
 This repository explains how to install NVIDIA graphic driver (GTX 1080 Ti) on Ubuntu 16.04.
 
 
+
+
+
 ## Target Environment
 * Ubuntu 16.04
 * CUDA 8.0
 * Driver version 381.22
+
+
+
 
 
 **1. Install CUDA without the driver**
@@ -32,6 +38,8 @@ After installed Ubuntu, main graphic driver would be default one. To capture NVI
   > sudo apt-get install nvidia-381
   
   * After reboot, the NVIDIA graphic driver would be correctly captured.
+
+
 
 
 
