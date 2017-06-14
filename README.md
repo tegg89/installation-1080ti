@@ -9,6 +9,7 @@ This repository explains how to install NVIDIA graphic driver (GTX 1080 Ti) on U
 
 
 **1. Install CUDA without the driver**
+
 After installed Ubuntu, main graphic driver would be default one. To capture NVIDIA graphic driver, CUDA toolkit should be installed.
 
   * Go to [here](https://developer.nvidia.com/cuda-downloads) and download CUDA. Make sure to check correct architecture and distribution types. I choosed `runfile(local)`.
@@ -23,6 +24,7 @@ After installed Ubuntu, main graphic driver would be default one. To capture NVI
 
 
 **2. Install driver with apt-get**
+
   > sudo add-apt-repository ppa:graphics-drivers/ppa
   
   > sudo apt-get update
