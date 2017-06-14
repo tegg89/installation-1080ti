@@ -39,7 +39,7 @@ Compatible driver version for GTX 1080 Ti is 381 series. Previous trial was dire
   
   * After reboot, the NVIDIA graphic driver would be correctly captured.
   
-**3. Verify installation
+**3. Verify installation**
 
   * `nvidia-smi` and `nvcc -V` would be verify installed driver version.
   
