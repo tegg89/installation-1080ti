@@ -45,8 +45,8 @@ Compatible driver version for GTX 1080 Ti is 381 series. Previous trial was dire
   
   * Go to `NVIDIA_CUDA-8.0_Samples/1_Utilities/deviceQuery` and `make` files. After running file, when the driver information is shown property, graphic driver is properly installed!
 
-//
-//
+
+
 ## Install OpenCV 3.3
 
 **1. Install OpenCV dependencies**
