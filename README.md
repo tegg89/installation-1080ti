@@ -45,10 +45,11 @@ Compatible driver version for GTX 1080 Ti is 381 series. Previous trial was dire
   
   * Go to `NVIDIA_CUDA-8.0_Samples/1_Utilities/deviceQuery` and `make` files. After running file, when the driver information is shown property, graphic driver is properly installed!
 
-
+//
+//
 ## Install OpenCV 3.3
 
-**1. Install OpenCV dependencies
+**1. Install OpenCV dependencies**
 
 `sudo apt-get update`
 `sudo apt-get upgrade`
@@ -65,7 +66,7 @@ Compatible driver version for GTX 1080 Ti is 381 series. Previous trial was dire
 `sudo apt-get install libatlas-base-dev gfortran`
 
 
-**2. Download the OpenCV source
+**2. Download the OpenCV source**
 
 `cd ~
 wget -O opencv.zip https://github.com/Itseez/opencv/archive/3.3.0.zip
@@ -75,7 +76,7 @@ unzip opencv.zip`
 unzip opencv_contrib.zip`
 
 
-**3. Configuring and compiling OpenCV
+**3. Configuring and compiling OpenCV**
 
 `source activate cv
 cd ~/opencv/
@@ -102,7 +103,7 @@ cd build`
 `sudo ldconfig`
 
 
-**4. Finish OpenCV install
+**4. Finish OpenCV install**
 
 The file `cv2.cpython-35m-x86-_64-linux-gnu.so` needs to be renamed and sym-linked.
 
